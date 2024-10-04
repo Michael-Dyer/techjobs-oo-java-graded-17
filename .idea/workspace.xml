@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     "Gradle.Tests in 'org.launchcode.techjobs.oo'.executor": "Run",
     "Gradle.techjobs-oo-java-graded-17 [:org.launchcode.techjobs.oo.Main.main()].executor": "Run",
     "JUnit.JobTest.executor": "Run",
+    "JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (1).executor": "Run",
     "JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +69,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (1)">
+  <component name="RunManager" selected="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs.oo.Main" />
       <module name="techjobs-oo-java17-graded.main" />
@@ -137,6 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="techjobs-oo-java17-graded.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.techjobs.oo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.techjobs.oo" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="techjobs-oo-java17-graded.test" />
       <extension name="coverage">
@@ -157,9 +167,11 @@
       <item itemvalue="JUnit.JobTest" />
       <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main" />
       <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (1)" />
+      <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (2)" />
         <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main (1)" />
         <item itemvalue="JUnit.org.launchcode.techjobs.oo in techjobs-oo-java17-graded.main" />
         <item itemvalue="Application.Main" />
