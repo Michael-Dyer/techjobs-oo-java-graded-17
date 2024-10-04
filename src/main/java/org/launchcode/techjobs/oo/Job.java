@@ -13,9 +13,7 @@ public class Job {
     private PositionType positionType;
     private CoreCompetency coreCompetency;
 
-    // TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
-    //  other five fields. The second constructor should also call the first in order to initialize
-    //  the 'id' field.
+
     public Job() {
         id = nextId;
         nextId++;
@@ -45,15 +43,39 @@ public class Job {
         return Objects.hashCode(id);
     }
 
+    public String toString(){
+        String formatedString;
 
-    // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
-    //  and id.
+        //check at least one field has valid data
+        if (this.getName() == "Data not available" && this.getEmployer().getValue() == "Data not available" && this.getLocation().getValue() == "Data not available" && this.getPositionType().getValue() == "Data not available" && this.getCoreCompetency().getValue() == "Data not available"){
+            return "OOPS! This job does not seem to exist.";
+        }
+
+        formatedString =
+
+                System.lineSeparator() +
+
+                "ID: " + this.getId()+ System.lineSeparator() +
+                "Name: " + this.getName() + System.lineSeparator() +
+                "Employer: " + this.getEmployer().getValue() + System.lineSeparator() +
+                "Location: " + this.getLocation().getValue() + System.lineSeparator() +
+                "Position Type: " + this.getPositionType().getValue() + System.lineSeparator() +
+                "Core Competency: " + this.getCoreCompetency().getValue() +
+
+                System.lineSeparator();
+
+        return formatedString;
+    }
+
 
     public int getId() {
         return id;
     }
 
     public String getName() {
+        if (name.isEmpty()){
+            return "Data not available";
+        }
         return name;
     }
 

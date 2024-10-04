@@ -45,6 +45,9 @@ public class Location {
     }
 
     public String getValue() {
+        if (value.isEmpty()){
+            return "Data not available";
+        }
         return value;
     }
 
